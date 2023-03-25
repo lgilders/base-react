@@ -1,5 +1,18 @@
 import React from 'react';
 
-const App = ({ title }) => <div>{title}</div>;
+import Hello from '@hello/Hello';
+import Twitter from '@icons/Twitter';
+
+require('./App.css');
+
+const App = ({ title }) => {
+    return (
+        <>
+            <div>{title}</div>
+            <Hello />
+            <Twitter />
+        </>
+    )
+};
 
 export default App;
