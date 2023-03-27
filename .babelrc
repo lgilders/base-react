@@ -1,0 +1,22 @@
+{
+    "presets": [
+      ["@babel/preset-env"],
+      [
+        "@babel/preset-react", 
+        {
+          "runtime": "automatic"
+        }
+      ]
+    ],
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "alias": {
+            "@components": "./src/components", // Example for shortening components imports
+            "@constants": "./src/constants"
+          }
+        }
+      ]
+    ]
+}

@@ -1,4 +1,4 @@
-# base-react
+# base-react / benefits-portal
 
 ## REQUIREMENTS
 1. Command Line Interface (CLI) of your choice
@@ -15,10 +15,14 @@ Run `npm run build` or `yarn run build` and then run `npx http-server dist` to s
 
 ### INCLUDES
 1. **ESLint** - with configuration to match the one used for *create-react-app*; see [this page](https://www.npmjs.com/package/eslint-config-react-app) for details
-2. **SVG components** - run `npm run svgr` or `yarn run svgr` to compile SVGs from the `src/assets/svgs` folder to the `src/components/Icons` folder as individual components
+2. **SVG components** - run `npm run svgr` or `yarn run svgr` to compile SVGs from the `src/assets/svgs` folder to the `src/constants/Icons` folder as individual components
 3. **Alias support** - see `.babelrc` for examples of how to make new aliases for each component
-4. **CSS Modules** - see `src/components/Hello` for an example component using this styling
+4. **CSS Modules** - see `src/components/Link` for an example component using this styling
 5. **Global variables/styles** - see `src/App.css` for global styling variables
 6. **CLSX support** for styling - simplifies conditional application of classnames; see [this page](https://www.npmjs.com/package/clsx) for details
 7. **ENV support** - see `.env.development` and `.env.production` files for details; see `build-utils/webpack.dev.js` and `build-utils/webpack.prod.js` for details
+8. **Prettier** - with configuration and interoperability with ESLint
 
+
+
+TODO - add translations, add MaterialUI, add themeing, add Storybook

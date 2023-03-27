@@ -1,0 +1,10 @@
+.link {
+    color: seagreen;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: lightseagreen;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
